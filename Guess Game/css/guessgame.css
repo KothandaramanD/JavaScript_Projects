@@ -1,0 +1,130 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.sectiongroup
+{
+    width: 69%;
+    margin: 0 auto;
+}
+body
+{
+/*    background-color: rgb(8, 202, 193);*/
+background-image: url("../images/wallpapper.jpg");
+}
+.section1
+{
+/*    background-color: rgb(175, 3, 118);*/
+background-image: url("../images/guess.jpg");
+
+}
+.sec1p
+{
+    font-size: 35px;
+    padding: 15px 0;
+    color: white;
+    font-weight: bold;
+    font-family: "Audiowide", cursive;
+    text-align: center;
+}
+.sec4p
+{
+    font-size: 15px;
+    padding: 12px 14px;
+    margin: 0px 0px;
+    color: white;
+    font-weight: bold;
+    font-family: "Audiowide", cursive;
+    background-color: rgb(138, 2, 92);
+}
+.section4
+{
+    width: 100%;
+}
+.section3
+{
+    width: auto;
+    padding-left: 0vw;
+    padding-bottom: 20px;
+/*    background-color: #fff;*/
+    background-image: url("../images/Untitled111.png");
+
+}
+.sec3table
+{
+    text-align: center;
+    font-size: 40px;
+    font-family: "Audiowide", cursive;
+}
+.bt1
+{
+    display: flex;
+        padding: 10px 20px;
+        background-color: rgb(138, 2, 92);
+        color: #fff;
+        text-align: center;
+        text-decoration: none;
+        cursor: pointer;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid #ce0574;
+        border-radius: 20px; 
+}
+.bt2
+{
+    display: inline-block;
+        padding: 10px 20px;
+        background-color: rgb(189, 7, 67);
+        color: #fff;
+        text-align: center;
+        text-decoration: none;
+        cursor: pointer;
+        margin: auto;
+        border: 2px solid #ff0000;
+        border-radius: 20px;
+
+}
+#butdiv
+{
+    background-color: rgb(7, 189, 77);
+    margin: 0px 250px;
+    padding: 20px;
+}
+.centerg
+{
+    text-align: center;
+    font-family: "Audiowide", cursive;
+
+}
+.centerimage
+{
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+.msgp
+{
+    text-align: center;
+    color: rgb(214, 19, 5);
+    font-family: "Audiowide", cursive;
+    font-size: 20px;
+}
+.inputgs
+{
+    width: 200px;
+    padding: 5px;
+    border-radius: 10px;
+    border-color: rgb(255, 255, 255);
+    background-color: #ffffff;
+    margin: auto;
+    display: flex;
+        justify-content: center;
+        align-items: center;
+}
+.sec3p
+{
+    font-family: "Audiowide", cursive;
+    text-align: center;
+}

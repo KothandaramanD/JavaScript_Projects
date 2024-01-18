@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Guess Game</title>
+</head>
+<body>
+    <div class="sectiongroup">
+    <div class="section1">
+    <p class="sec1p">Guess Game</p>  
+    </div>    
+    <div class="section3" id="section3">
+       <br><br>
+        <p class="sec3table" id="sec3table">Welcome to the Guess Game</p><br><br>
+        <div id="butdiv" style="display: none;"><button id="button2" style="display: none;" class="bt2">Play Again</button></div>    
+        <p class="sec3p" id="para1">Guess a number 1 to 10, Total guess is 5</p><br><br>
+        <input type="text" id="guessInput" class="inputgs" placeholder="Enter the Number"><br>
+        <button onclick="checkGuess()" id="button1" class="bt1">Submit Guess</button>
+        <br><br>
+        <div id="message" class="msgp"></div><br><br>
+        <img src="" id="image1" height="100" width="100" style="display: none;" class="centerimage"><br>
+      </div>
+      <div class="section4">
+        <p class="sec4p">How i play the Game: Computer Automatically generate the number, put your guesses, computer check low, or high. If correct computer shows the correct with like</p>
+    </div>
+</div>  
+<script src="js/guessgame.js"></script>
+<link rel="stylesheet" href="css/guessgame.css">
+</body>
+</html>
